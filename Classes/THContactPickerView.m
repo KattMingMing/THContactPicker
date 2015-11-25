@@ -366,7 +366,7 @@
     if (self.promptLabel.text == nil){
         return kHorizontalSidePadding;
     } else {
-        return self.promptLabel.frame.origin.x + self.promptLabel.frame.size.width + 1;
+        return self.promptLabel.frame.origin.x + self.promptLabel.frame.size.width + 20;
     }
 }
 
